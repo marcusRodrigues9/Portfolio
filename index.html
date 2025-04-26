@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARCUS RODRIGUES</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/output.css">
+</head>
+<body>
+    <header class="flex items-center justify-center md:justify-around flex-col md:flex-row py-3 h-40 md:h-auto gap-4 md:gap-0 md:fixed top-0 left-0 w-full z-50 bg-[#232324]">
+        <div id="my-name">
+            <h1 class="text-white font-bold text-4xl hover:border-b-2 border-green-500 duration-150 cursor-default md:mt-8">MARCUS <span class="text-green-600">RODRIGUES</span></h1>
+        </div>
+        <div id="icon">
+            <i>
+                <span class="material-symbols-outlined text-white hover:text-green-600 cursor-pointer md:hidden">menu</span>
+            </i>
+        </div>
+        <div id="anchors" class="hidden md:flex text-white gap-8 items-center text-xl">
+            <a href="home" class="hover:scale-125 duration-150 hover:text-green-600 hover:border-b-2 border-green-600">Home</a>
+            <a href="#about-me" class="hover:scale-125 duration-150 hover:text-green-600 hover:border-b-2 border-green-600">About</a>
+            <a href="#skills" class="hover:scale-125 duration-150 hover:text-green-600 hover:border-b-2 border-green-600">Skills</a>
+            <a href="experience" class="hover:scale-125 duration-150 hover:text-green-600 hover:border-b-2 border-green-600">Experience</a>
+            <a href="projects" class="hover:scale-125 duration-150 hover:text-green-600 hover:border-b-2 border-green-600">Projects</a>
+            <a href="#"><button class="text-white bg-green-600 px-2 py-2 rounded-md hover:bg-green-600/70 duration-150">Contact</button></a>
+        </div>
+    </header>
+    <main class="flex mt-12 md:justify-between flex-col md:flex-row border-b-2 h-[750px] md:h-screen md:px-56 gap-8 md:gap-60">
+        <section class=" flex flex-col # md:w-[770px] md:items-start">
+            <div class="flex items-center justify-center flex-col gap-4 md:mt-48 max-w-xl           text-center  md:items-start md:text-left">
+                <h1 class="text-white text-5xl md:text-7xl font-bold">Welcome</h1>
+                <h2 class="text-white text-4xl">i'm a <span class="text-green-600">Web developer</span>
+                </h2>
+                <p class="text-white text-xl md:text-left">Explore my portfolio featureing projects built with HTML, CSS, JAVASCRIPT, TAILWIND CSS, PYTHON. I am currently improving my skills in front-end.</p>
+            </div>
+            <div class="flex justify-center mt-3 gap-3  flex-col items-center md:items-start">
+                <div id="icons-contacts">
+                    <a href=""><i class='bx bxl-linkedin-square text-white text-4xl cursor-pointer hover:border-b-2 border-green-600 duration-700'></i></a>
+                    <a href=""><i class='bx bxl-instagram text-white text-4xl cursor-pointer hover:border-b-2 border-green-600 duration-700'></i></a>
+                    <a href="https://github.com/marcusRodrigues9" target="_blank"><i class='bx bxl-github text-white text-4xl cursor-pointer hover:border-b-2 border-green-600 duration-700' ></i></a>
+                </div>
+                <a href=""><button class="text-xl bg-green-600 min-w-6 py-2 rounded-md px-3 text-white font-bold hover:bg-green-600/55">Explore my Work</button></a>
+            </div>
+        </section>
+        
+        <section class="flex items-center justify-center">
+            <div class="flex items-center justify-center flex-col">
+                <img src="assets/ChatGPT Image 26 de abr. de 2025, 09_19_37 (1).png" alt="" class="w-96 h-96 md:w-[700px] md:h-[700px]">
+            </div>
+        </section>
+    </main>
+    <section class="flex justify-center mt-5 flex-col gap-10 items-center border-b-2 py-5" id="about-me">
+        <h1 class="text-white font-bold text-4xl text-center ">ABOUT <span class="text-green-600">ME</span></h1>
+        <div class="flex justify-center">
+            <h1 class="text-2xl md:text-3xl text-white bg-zinc-700 w-[300px] md:w-[500px] text-center rounded-full mt-4 font-bold">EDUCATION</h1>
+        </div>
+        <div class="flex justify-center items-center flex-col md:flex-col mt-1 w-[300px] bg-zinc-700 md:w-[1100px] py-3 md:py-4 rounded-md hover:border-b-4 border-green-600 hover:border-l-4 duration-100">
+            <h1 class="text-white text-xl font-bold md:text-3xl text-center">Studying information systems from FAI
+            </h1>
+            <p class="text-green-600 font-bold md:text-2xl">fev 2024 - dec 2028</p>
+        </div>
+    </section>
+    <section id="skills" class="flex justify-center py-6 mt-4 ">
+        <h1 class="text-white md:text-5xl font-bold">SKILLS</h1>
+    </section>
+</body>
+</html>
