@@ -11,13 +11,13 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
-<body>
+<body id="teste">
     <!--HEADER DO PROJETO-->
     <header class="flex items-center justify-center md:justify-around flex-col md:flex-row py-3 h-40 md:h-auto gap-4 md:gap-0 md:fixed top-0 left-0 w-full z-50 bg-[#232324]">
         <div id="my-name">
             <h1 class="text-white font-bold text-4xl hover:border-b-2 border-green-500 duration-150 cursor-default md:mt-8">MARCUS <span class="text-green-600">RODRIGUES</span></h1>
         </div>
-        <div id="icon">
+        <div id="icon-menu">
             <i>
                 <span class="material-symbols-outlined text-white hover:text-green-600 cursor-pointer md:hidden">menu</span>
             </i>
@@ -44,7 +44,7 @@
             <div class="flex justify-center mt-3 gap-3  flex-col items-center md:items-start">
                 <div id="icons-contacts">
                     <a href="https://www.linkedin.com/in/marcus-vinicius-844820297/" target="_blank"><i class='bx bxl-linkedin-square text-white text-4xl cursor-pointer hover:border-b-2 border-green-600 duration-700'></i></a>
-                    <a href=""><i class='bx bxl-instagram text-white text-4xl cursor-pointer hover:border-b-2 border-green-600 duration-700'></i></a>
+                    <a href="https://www.instagram.com/rodriguesk6/" target="_blank"><i class='bx bxl-instagram text-white text-4xl cursor-pointer hover:border-b-2 border-green-600 duration-700'></i></a>
                     <a href="https://github.com/marcusRodrigues9" target="_blank"><i class='bx bxl-github text-white text-4xl cursor-pointer hover:border-b-2 border-green-600 duration-700' ></i></a>
                 </div>
                 <a href="#about-me"><button class="text-xl bg-green-600 min-w-6 py-2 rounded-md px-3 text-white font-bold hover:bg-green-600/55">Explore my Work</button></a>
@@ -191,7 +191,7 @@
             </ul>
         </div>
     </section>
-    <section id="contact" class="flex items-center py-6 mt-4 flex-col gap-10">
+    <section id="contact" class="flex items-center py-6 mt-4 flex-col gap-10 border-b-2 ">
         <h1 class="text-2xl md:text-3xl text-green-600 bg-zinc-700 w-[300px] md:w-[500px] text-center rounded-full mt-6 md:mt-16 font-bold">CONTACT</h1>
         <div class="h-20 md:w-[650px]">
             <p class="text-white text-2xl text-center">If you have an exciting project in mind, want to collaborate, or simply wish to connect, let's initiate a conversation</p>
@@ -201,6 +201,23 @@
             <a href=""><i class='bx bxl-whatsapp text-6xl text-white hover:scale-150 hover:bg-green-500 duration-200 hover:rounded-full' ></i></a>
         </div>
     </section>
+    <footer class="flex justify-between px-10 py-10 items-center">
+        <p class="text-white">Copyright reserved 2025 Marcus Rodrigues</p>
+        <div>
+            <a href="https://www.linkedin.com/in/marcus-vinicius-844820297/" target="_blank"><i class='bx bxl-linkedin-square text-white text-4xl cursor-pointer hover:border-b-2 border-green-600 duration-700'></i></a>
+            <a href="https://www.instagram.com/rodriguesk6/" target="_blank"><i class='bx bxl-instagram text-white text-4xl cursor-pointer hover:border-b-2 border-green-600 duration-700'></i></a>
+            <a href="https://github.com/marcusRodrigues9" target="_blank"><i class='bx bxl-github text-white text-4xl cursor-pointer hover:border-b-2 border-green-600 duration-700' ></i></a>
+        </div>
+    </footer>
+    <div id="modal" class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden">
+        <div class="bg-zinc-700 border-2 rounded-md w-[200px] h-[200px] items-center justify-center py-10 md:hidden flex flex-col gap-3 text-white">
+            <a href="#" class="text-xl font-bold">home</a>
+            <a href="#about-me" class="text-xl font-bold ">about</a>
+            <a href="#skills" class="text-xl font-bold ">skills</a>
+            <a href="#experience" class="text-xl font-bold ">experience</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
